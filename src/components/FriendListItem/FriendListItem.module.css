@@ -1,0 +1,19 @@
+.online::before {
+  content: "Online";
+  color: green;
+}
+
+.offline::before {
+  content: "Offline";
+  color: red;
+}
+
+.cartItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartItem p:nth-child(2) {
+  font-size: 20px;
+}
